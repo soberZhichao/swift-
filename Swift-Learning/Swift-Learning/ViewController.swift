@@ -24,6 +24,8 @@ class ViewController: UIViewController {
         tableview.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         navigationController?.navigationBar.isTranslucent = false
         navigationController?.navigationBar.shadowImage = UIImage()
+        title = "Swift-Learning"
+        
     }
 
     private func getPropertyList() -> Any? {
@@ -41,14 +43,15 @@ class ViewController: UIViewController {
             return nil
         }
     }
-    
 }
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return propertyList.count
     }
-    
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        return UIView()
+    }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell")!
         cell.textLabel?.text = propertyList[indexPath.row]
@@ -57,7 +60,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-
+        let vc = AggregateViewController()
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
 
