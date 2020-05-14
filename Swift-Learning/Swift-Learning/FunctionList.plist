@@ -2,8 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-	<string>内建集合类型</string>
-	<string>内建集合类型</string>
-	<string>内建集合类型</string>
+	<dict>
+		<key>func</key>
+		<string>内建集合类型</string>
+		<key>class</key>
+		<string>AggregateViewController</string>
+	</dict>
+	<dict>
+		<key>func</key>
+		<string>协议</string>
+		<key>class</key>
+		<string>ProtocolViewController</string>
+	</dict>
 </array>
 </plist>

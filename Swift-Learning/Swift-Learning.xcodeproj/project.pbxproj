@@ -14,6 +14,8 @@
 		B262BBF124641CFE002A2754 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B262BBEF24641CFE002A2754 /* LaunchScreen.storyboard */; };
 		B262BBF924641DBB002A2754 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B262BBF824641DBB002A2754 /* ViewController.swift */; };
 		B262BBFB24641DC4002A2754 /* FunctionList.plist in Resources */ = {isa = PBXBuildFile; fileRef = B262BBFA24641DC4002A2754 /* FunctionList.plist */; };
+		B2692A6F246D220700AE812D /* ProtocolOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2692A6E246D220700AE812D /* ProtocolOperation.swift */; };
+		B2692A71246D233B00AE812D /* ProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2692A70246D233B00AE812D /* ProtocolViewController.swift */; };
 		B2803FD724650C2F00CB1119 /* AggregateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2803FD624650C2F00CB1119 /* AggregateViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 		B262BBF224641CFE002A2754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B262BBF824641DBB002A2754 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B262BBFA24641DC4002A2754 /* FunctionList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FunctionList.plist; sourceTree = "<group>"; };
+		B2692A6E246D220700AE812D /* ProtocolOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolOperation.swift; sourceTree = "<group>"; };
+		B2692A70246D233B00AE812D /* ProtocolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolViewController.swift; sourceTree = "<group>"; };
 		B2803FD624650C2F00CB1119 /* AggregateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AggregateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +64,7 @@
 		B262BBE324641CFA002A2754 /* Swift-Learning */ = {
 			isa = PBXGroup;
 			children = (
+				B2692A6D246D21E600AE812D /* Protocol */,
 				B2803FD524650BEE00CB1119 /* 内建集合类型 */,
 				B262BBE424641CFA002A2754 /* AppDelegate.swift */,
 				B262BBE624641CFA002A2754 /* SceneDelegate.swift */,
@@ -71,6 +76,15 @@
 				B262BBF224641CFE002A2754 /* Info.plist */,
 			);
 			path = "Swift-Learning";
+			sourceTree = "<group>";
+		};
+		B2692A6D246D21E600AE812D /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B2692A6E246D220700AE812D /* ProtocolOperation.swift */,
+				B2692A70246D233B00AE812D /* ProtocolViewController.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		B2803FD524650BEE00CB1119 /* 内建集合类型 */ = {
@@ -156,6 +170,8 @@
 				B262BBF924641DBB002A2754 /* ViewController.swift in Sources */,
 				B262BBE524641CFA002A2754 /* AppDelegate.swift in Sources */,
 				B2803FD724650C2F00CB1119 /* AggregateViewController.swift in Sources */,
+				B2692A6F246D220700AE812D /* ProtocolOperation.swift in Sources */,
+				B2692A71246D233B00AE812D /* ProtocolViewController.swift in Sources */,
 				B262BBE724641CFA002A2754 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
