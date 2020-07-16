@@ -68,13 +68,19 @@ extension AggregateViewController {
         // 分配比请求或多或少的存储
         var arrayD: [Int] = []
         arrayD.reserveCapacity(2)
-        arrayD = [1,2,3]
+        arrayD = [1,2,3,4,5]
         print("开辟数组空间=== \(arrayD)")
 
         let index = arrayC.index(after: 2)
         print("寻找元素的位置=== \(index)")
         let offsetIndex = arrayC.index(1, offsetBy: 1, limitedBy: arrayC.endIndex)!
         print("寻找元素的位置=== \(offsetIndex)")
+        
+        // 数组切片，前几位，后几位
+        let prefix2 = Array(arrayD.prefix(2))
+        print("数组前2位=== \(prefix2)")
+        let arrayRange = Array(arrayD[2..<arrayD.endIndex])
+        print("数组中间取值=== \(arrayRange)")
 
         // 数组变形
         let newArrayC = arrayC.map {

@@ -17,6 +17,8 @@
 		B2692A6F246D220700AE812D /* ProtocolOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2692A6E246D220700AE812D /* ProtocolOperation.swift */; };
 		B2692A71246D233B00AE812D /* ProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2692A70246D233B00AE812D /* ProtocolViewController.swift */; };
 		B2803FD724650C2F00CB1119 /* AggregateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2803FD624650C2F00CB1119 /* AggregateViewController.swift */; };
+		B28BDE2D24B5B0EC00344702 /* FuncInoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28BDE2C24B5B0EC00344702 /* FuncInoutViewController.swift */; };
+		B28BDE2F24B5B3D300344702 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28BDE2E24B5B3D300344702 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		B2692A6E246D220700AE812D /* ProtocolOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolOperation.swift; sourceTree = "<group>"; };
 		B2692A70246D233B00AE812D /* ProtocolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolViewController.swift; sourceTree = "<group>"; };
 		B2803FD624650C2F00CB1119 /* AggregateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AggregateViewController.swift; sourceTree = "<group>"; };
+		B28BDE2C24B5B0EC00344702 /* FuncInoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncInoutViewController.swift; sourceTree = "<group>"; };
+		B28BDE2E24B5B3D300344702 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,7 @@
 		B262BBD824641CFA002A2754 = {
 			isa = PBXGroup;
 			children = (
+				B28BDE2E24B5B3D300344702 /* BaseViewController.swift */,
 				B262BBE324641CFA002A2754 /* Swift-Learning */,
 				B262BBE224641CFA002A2754 /* Products */,
 			);
@@ -64,6 +69,7 @@
 		B262BBE324641CFA002A2754 /* Swift-Learning */ = {
 			isa = PBXGroup;
 			children = (
+				B28BDE2B24B5B0DB00344702 /* 修改传参的值 */,
 				B2692A6D246D21E600AE812D /* Protocol */,
 				B2803FD524650BEE00CB1119 /* 内建集合类型 */,
 				B262BBE424641CFA002A2754 /* AppDelegate.swift */,
@@ -93,6 +99,14 @@
 				B2803FD624650C2F00CB1119 /* AggregateViewController.swift */,
 			);
 			path = "内建集合类型";
+			sourceTree = "<group>";
+		};
+		B28BDE2B24B5B0DB00344702 /* 修改传参的值 */ = {
+			isa = PBXGroup;
+			children = (
+				B28BDE2C24B5B0EC00344702 /* FuncInoutViewController.swift */,
+			);
+			path = "修改传参的值";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,10 +181,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B28BDE2D24B5B0EC00344702 /* FuncInoutViewController.swift in Sources */,
 				B262BBF924641DBB002A2754 /* ViewController.swift in Sources */,
 				B262BBE524641CFA002A2754 /* AppDelegate.swift in Sources */,
 				B2803FD724650C2F00CB1119 /* AggregateViewController.swift in Sources */,
 				B2692A6F246D220700AE812D /* ProtocolOperation.swift in Sources */,
+				B28BDE2F24B5B3D300344702 /* BaseViewController.swift in Sources */,
 				B2692A71246D233B00AE812D /* ProtocolViewController.swift in Sources */,
 				B262BBE724641CFA002A2754 /* SceneDelegate.swift in Sources */,
 			);

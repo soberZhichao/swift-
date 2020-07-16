@@ -14,5 +14,11 @@
 		<key>class</key>
 		<string>ProtocolViewController</string>
 	</dict>
+	<dict>
+		<key>func</key>
+		<string>修改传参的值</string>
+		<key>class</key>
+		<string>FuncInoutViewController</string>
+	</dict>
 </array>
 </plist>

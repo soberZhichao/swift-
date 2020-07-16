@@ -22,6 +22,7 @@ extension MyProtocol {
         let label = UILabel()
         label.textAlignment = .center
         label.frame = UIScreen.main.bounds
+        label.numberOfLines = 0
         return label
     }
 }
