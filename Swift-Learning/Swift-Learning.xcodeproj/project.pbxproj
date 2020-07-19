@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B20AAEDD24C49025008696A9 /* KVOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20AAEDC24C49025008696A9 /* KVOViewController.swift */; };
 		B262BBE524641CFA002A2754 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B262BBE424641CFA002A2754 /* AppDelegate.swift */; };
 		B262BBE724641CFA002A2754 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B262BBE624641CFA002A2754 /* SceneDelegate.swift */; };
 		B262BBEC24641CFA002A2754 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B262BBEA24641CFA002A2754 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B20AAEDC24C49025008696A9 /* KVOViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVOViewController.swift; sourceTree = "<group>"; };
 		B262BBE124641CFA002A2754 /* Swift-Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B262BBE424641CFA002A2754 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B262BBE624641CFA002A2754 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B20AAEDB24C48FCF008696A9 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				B20AAEDC24C49025008696A9 /* KVOViewController.swift */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
 		B262BBD824641CFA002A2754 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +83,7 @@
 		B262BBE324641CFA002A2754 /* Swift-Learning */ = {
 			isa = PBXGroup;
 			children = (
+				B20AAEDB24C48FCF008696A9 /* KVO */,
 				B268DDBE24C199B2003D49E1 /* 值类型嵌套 */,
 				B268DDAF24C04B64003D49E1 /* Lazy */,
 				B28BDE2B24B5B0DB00344702 /* 修改传参的值 */,
@@ -206,6 +217,7 @@
 				B268DDC024C19A03003D49E1 /* IndirectViewController.swift in Sources */,
 				B28BDE2D24B5B0EC00344702 /* FuncInoutViewController.swift in Sources */,
 				B262BBF924641DBB002A2754 /* ViewController.swift in Sources */,
+				B20AAEDD24C49025008696A9 /* KVOViewController.swift in Sources */,
 				B262BBE524641CFA002A2754 /* AppDelegate.swift in Sources */,
 				B2803FD724650C2F00CB1119 /* AggregateViewController.swift in Sources */,
 				B268DDB124C04B82003D49E1 /* LazyViewController.swift in Sources */,

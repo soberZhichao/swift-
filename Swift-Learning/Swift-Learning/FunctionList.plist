@@ -32,5 +32,11 @@
 		<key>class</key>
 		<string>IndirectViewController</string>
 	</dict>
+	<dict>
+		<key>func</key>
+		<string>KVO</string>
+		<key>class</key>
+		<string>KVOViewController</string>
+	</dict>
 </array>
 </plist>
