@@ -20,5 +20,17 @@
 		<key>class</key>
 		<string>FuncInoutViewController</string>
 	</dict>
+	<dict>
+		<key>func</key>
+		<string>Lazy</string>
+		<key>class</key>
+		<string>LazyViewController</string>
+	</dict>
+	<dict>
+		<key>func</key>
+		<string>值类型嵌套</string>
+		<key>class</key>
+		<string>IndirectViewController</string>
+	</dict>
 </array>
 </plist>

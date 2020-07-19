@@ -14,6 +14,8 @@
 		B262BBF124641CFE002A2754 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B262BBEF24641CFE002A2754 /* LaunchScreen.storyboard */; };
 		B262BBF924641DBB002A2754 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B262BBF824641DBB002A2754 /* ViewController.swift */; };
 		B262BBFB24641DC4002A2754 /* FunctionList.plist in Resources */ = {isa = PBXBuildFile; fileRef = B262BBFA24641DC4002A2754 /* FunctionList.plist */; };
+		B268DDB124C04B82003D49E1 /* LazyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B268DDB024C04B82003D49E1 /* LazyViewController.swift */; };
+		B268DDC024C19A03003D49E1 /* IndirectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B268DDBF24C19A03003D49E1 /* IndirectViewController.swift */; };
 		B2692A6F246D220700AE812D /* ProtocolOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2692A6E246D220700AE812D /* ProtocolOperation.swift */; };
 		B2692A71246D233B00AE812D /* ProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2692A70246D233B00AE812D /* ProtocolViewController.swift */; };
 		B2803FD724650C2F00CB1119 /* AggregateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2803FD624650C2F00CB1119 /* AggregateViewController.swift */; };
@@ -31,6 +33,8 @@
 		B262BBF224641CFE002A2754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B262BBF824641DBB002A2754 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B262BBFA24641DC4002A2754 /* FunctionList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FunctionList.plist; sourceTree = "<group>"; };
+		B268DDB024C04B82003D49E1 /* LazyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyViewController.swift; sourceTree = "<group>"; };
+		B268DDBF24C19A03003D49E1 /* IndirectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndirectViewController.swift; sourceTree = "<group>"; };
 		B2692A6E246D220700AE812D /* ProtocolOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolOperation.swift; sourceTree = "<group>"; };
 		B2692A70246D233B00AE812D /* ProtocolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolViewController.swift; sourceTree = "<group>"; };
 		B2803FD624650C2F00CB1119 /* AggregateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AggregateViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 		B262BBE324641CFA002A2754 /* Swift-Learning */ = {
 			isa = PBXGroup;
 			children = (
+				B268DDBE24C199B2003D49E1 /* 值类型嵌套 */,
+				B268DDAF24C04B64003D49E1 /* Lazy */,
 				B28BDE2B24B5B0DB00344702 /* 修改传参的值 */,
 				B2692A6D246D21E600AE812D /* Protocol */,
 				B2803FD524650BEE00CB1119 /* 内建集合类型 */,
@@ -82,6 +88,22 @@
 				B262BBF224641CFE002A2754 /* Info.plist */,
 			);
 			path = "Swift-Learning";
+			sourceTree = "<group>";
+		};
+		B268DDAF24C04B64003D49E1 /* Lazy */ = {
+			isa = PBXGroup;
+			children = (
+				B268DDB024C04B82003D49E1 /* LazyViewController.swift */,
+			);
+			path = Lazy;
+			sourceTree = "<group>";
+		};
+		B268DDBE24C199B2003D49E1 /* 值类型嵌套 */ = {
+			isa = PBXGroup;
+			children = (
+				B268DDBF24C19A03003D49E1 /* IndirectViewController.swift */,
+			);
+			path = "值类型嵌套";
 			sourceTree = "<group>";
 		};
 		B2692A6D246D21E600AE812D /* Protocol */ = {
@@ -181,10 +203,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B268DDC024C19A03003D49E1 /* IndirectViewController.swift in Sources */,
 				B28BDE2D24B5B0EC00344702 /* FuncInoutViewController.swift in Sources */,
 				B262BBF924641DBB002A2754 /* ViewController.swift in Sources */,
 				B262BBE524641CFA002A2754 /* AppDelegate.swift in Sources */,
 				B2803FD724650C2F00CB1119 /* AggregateViewController.swift in Sources */,
+				B268DDB124C04B82003D49E1 /* LazyViewController.swift in Sources */,
 				B2692A6F246D220700AE812D /* ProtocolOperation.swift in Sources */,
 				B28BDE2F24B5B3D300344702 /* BaseViewController.swift in Sources */,
 				B2692A71246D233B00AE812D /* ProtocolViewController.swift in Sources */,
