@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B20AAEDD24C49025008696A9 /* KVOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20AAEDC24C49025008696A9 /* KVOViewController.swift */; };
+		B20FBAA324FDE00F009BAE09 /* func.list in Resources */ = {isa = PBXBuildFile; fileRef = B20FBAA224FDE00F009BAE09 /* func.list */; };
 		B262BBE524641CFA002A2754 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B262BBE424641CFA002A2754 /* AppDelegate.swift */; };
 		B262BBE724641CFA002A2754 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B262BBE624641CFA002A2754 /* SceneDelegate.swift */; };
 		B262BBEC24641CFA002A2754 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B262BBEA24641CFA002A2754 /* Main.storyboard */; };
@@ -19,13 +20,22 @@
 		B268DDC024C19A03003D49E1 /* IndirectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B268DDBF24C19A03003D49E1 /* IndirectViewController.swift */; };
 		B2692A6F246D220700AE812D /* ProtocolOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2692A6E246D220700AE812D /* ProtocolOperation.swift */; };
 		B2692A71246D233B00AE812D /* ProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2692A70246D233B00AE812D /* ProtocolViewController.swift */; };
+		B26E77FA25063571009AB257 /* StringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E77F925063571009AB257 /* StringViewController.swift */; };
 		B2803FD724650C2F00CB1119 /* AggregateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2803FD624650C2F00CB1119 /* AggregateViewController.swift */; };
 		B28BDE2D24B5B0EC00344702 /* FuncInoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28BDE2C24B5B0EC00344702 /* FuncInoutViewController.swift */; };
 		B28BDE2F24B5B3D300344702 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28BDE2E24B5B3D300344702 /* BaseViewController.swift */; };
+		B2A3D11924E14BCA00BA2DAC /* FunctionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A3D11824E14BCA00BA2DAC /* FunctionViewController.swift */; };
+		B2A7825B25DE41A4002DDCAB /* FanxingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A7825A25DE41A4002DDCAB /* FanxingViewController.swift */; };
+		B2D9FA9624DA892400D85AF8 /* OptionalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9FA9524DA892400D85AF8 /* OptionalViewController.swift */; };
+		B2E3B9D224EA61A000C66A76 /* StructAndClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E3B9D124EA61A000C66A76 /* StructAndClassViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B20AAEDC24C49025008696A9 /* KVOViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVOViewController.swift; sourceTree = "<group>"; };
+		B20FBA9E24FDDF90009BAE09 /* confuse.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = confuse.sh; sourceTree = "<group>"; };
+		B20FBAA224FDE00F009BAE09 /* func.list */ = {isa = PBXFileReference; lastKnownFileType = text; path = func.list; sourceTree = "<group>"; };
+		B20FBAA424FDE031009BAE09 /* codeObfuscation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = codeObfuscation.h; sourceTree = "<group>"; };
+		B20FBAA724FDE55B009BAE09 /* bridge.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.pch; sourceTree = "<group>"; };
 		B262BBE124641CFA002A2754 /* Swift-Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B262BBE424641CFA002A2754 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B262BBE624641CFA002A2754 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,9 +49,14 @@
 		B268DDBF24C19A03003D49E1 /* IndirectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndirectViewController.swift; sourceTree = "<group>"; };
 		B2692A6E246D220700AE812D /* ProtocolOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolOperation.swift; sourceTree = "<group>"; };
 		B2692A70246D233B00AE812D /* ProtocolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolViewController.swift; sourceTree = "<group>"; };
+		B26E77F925063571009AB257 /* StringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringViewController.swift; sourceTree = "<group>"; };
 		B2803FD624650C2F00CB1119 /* AggregateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AggregateViewController.swift; sourceTree = "<group>"; };
 		B28BDE2C24B5B0EC00344702 /* FuncInoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncInoutViewController.swift; sourceTree = "<group>"; };
 		B28BDE2E24B5B3D300344702 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		B2A3D11824E14BCA00BA2DAC /* FunctionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionViewController.swift; sourceTree = "<group>"; };
+		B2A7825A25DE41A4002DDCAB /* FanxingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanxingViewController.swift; sourceTree = "<group>"; };
+		B2D9FA9524DA892400D85AF8 /* OptionalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalViewController.swift; sourceTree = "<group>"; };
+		B2E3B9D124EA61A000C66A76 /* StructAndClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructAndClassViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +78,21 @@
 			path = KVO;
 			sourceTree = "<group>";
 		};
+		B20FBA9D24FDDF5E009BAE09 /* CodeObfuscation */ = {
+			isa = PBXGroup;
+			children = (
+				B20FBA9E24FDDF90009BAE09 /* confuse.sh */,
+				B20FBAA224FDE00F009BAE09 /* func.list */,
+				B20FBAA424FDE031009BAE09 /* codeObfuscation.h */,
+			);
+			path = CodeObfuscation;
+			sourceTree = "<group>";
+		};
 		B262BBD824641CFA002A2754 = {
 			isa = PBXGroup;
 			children = (
 				B28BDE2E24B5B3D300344702 /* BaseViewController.swift */,
+				B20FBA9D24FDDF5E009BAE09 /* CodeObfuscation */,
 				B262BBE324641CFA002A2754 /* Swift-Learning */,
 				B262BBE224641CFA002A2754 /* Products */,
 			);
@@ -83,12 +109,16 @@
 		B262BBE324641CFA002A2754 /* Swift-Learning */ = {
 			isa = PBXGroup;
 			children = (
+				B2A7825925DE4191002DDCAB /* 泛型 */,
+				B26E77F825063551009AB257 /* 字符串 */,
+				B2E3B9D024EA618F00C66A76 /* 结构体和类 */,
+				B2A3D11724E14BBD00BA2DAC /* 函数 */,
+				B2D9FA9424DA891700D85AF8 /* 可选值 */,
 				B20AAEDB24C48FCF008696A9 /* KVO */,
 				B268DDBE24C199B2003D49E1 /* 值类型嵌套 */,
 				B268DDAF24C04B64003D49E1 /* Lazy */,
 				B28BDE2B24B5B0DB00344702 /* 修改传参的值 */,
 				B2692A6D246D21E600AE812D /* Protocol */,
-				B2803FD524650BEE00CB1119 /* 内建集合类型 */,
 				B262BBE424641CFA002A2754 /* AppDelegate.swift */,
 				B262BBE624641CFA002A2754 /* SceneDelegate.swift */,
 				B262BBF824641DBB002A2754 /* ViewController.swift */,
@@ -97,6 +127,7 @@
 				B262BBED24641CFE002A2754 /* Assets.xcassets */,
 				B262BBEF24641CFE002A2754 /* LaunchScreen.storyboard */,
 				B262BBF224641CFE002A2754 /* Info.plist */,
+				B20FBAA724FDE55B009BAE09 /* bridge.pch */,
 			);
 			path = "Swift-Learning";
 			sourceTree = "<group>";
@@ -104,6 +135,7 @@
 		B268DDAF24C04B64003D49E1 /* Lazy */ = {
 			isa = PBXGroup;
 			children = (
+				B2803FD524650BEE00CB1119 /* 内建集合类型 */,
 				B268DDB024C04B82003D49E1 /* LazyViewController.swift */,
 			);
 			path = Lazy;
@@ -126,6 +158,14 @@
 			path = Protocol;
 			sourceTree = "<group>";
 		};
+		B26E77F825063551009AB257 /* 字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				B26E77F925063571009AB257 /* StringViewController.swift */,
+			);
+			path = "字符串";
+			sourceTree = "<group>";
+		};
 		B2803FD524650BEE00CB1119 /* 内建集合类型 */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +182,38 @@
 			path = "修改传参的值";
 			sourceTree = "<group>";
 		};
+		B2A3D11724E14BBD00BA2DAC /* 函数 */ = {
+			isa = PBXGroup;
+			children = (
+				B2A3D11824E14BCA00BA2DAC /* FunctionViewController.swift */,
+			);
+			path = "函数";
+			sourceTree = "<group>";
+		};
+		B2A7825925DE4191002DDCAB /* 泛型 */ = {
+			isa = PBXGroup;
+			children = (
+				B2A7825A25DE41A4002DDCAB /* FanxingViewController.swift */,
+			);
+			path = "泛型";
+			sourceTree = "<group>";
+		};
+		B2D9FA9424DA891700D85AF8 /* 可选值 */ = {
+			isa = PBXGroup;
+			children = (
+				B2D9FA9524DA892400D85AF8 /* OptionalViewController.swift */,
+			);
+			path = "可选值";
+			sourceTree = "<group>";
+		};
+		B2E3B9D024EA618F00C66A76 /* 结构体和类 */ = {
+			isa = PBXGroup;
+			children = (
+				B2E3B9D124EA61A000C66A76 /* StructAndClassViewController.swift */,
+			);
+			path = "结构体和类";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,6 +224,7 @@
 				B262BBDD24641CFA002A2754 /* Sources */,
 				B262BBDE24641CFA002A2754 /* Frameworks */,
 				B262BBDF24641CFA002A2754 /* Resources */,
+				B20FBA9F24FDDF9E009BAE09 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -201,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B262BBF124641CFE002A2754 /* LaunchScreen.storyboard in Resources */,
+				B20FBAA324FDE00F009BAE09 /* func.list in Resources */,
 				B262BBEE24641CFE002A2754 /* Assets.xcassets in Resources */,
 				B262BBFB24641DC4002A2754 /* FunctionList.plist in Resources */,
 				B262BBEC24641CFA002A2754 /* Main.storyboard in Resources */,
@@ -209,20 +283,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B20FBA9F24FDDF9E009BAE09 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$PROJECT_DIR/CodeObfuscation/confuse.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B262BBDD24641CFA002A2754 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2A7825B25DE41A4002DDCAB /* FanxingViewController.swift in Sources */,
 				B268DDC024C19A03003D49E1 /* IndirectViewController.swift in Sources */,
 				B28BDE2D24B5B0EC00344702 /* FuncInoutViewController.swift in Sources */,
 				B262BBF924641DBB002A2754 /* ViewController.swift in Sources */,
 				B20AAEDD24C49025008696A9 /* KVOViewController.swift in Sources */,
+				B2D9FA9624DA892400D85AF8 /* OptionalViewController.swift in Sources */,
 				B262BBE524641CFA002A2754 /* AppDelegate.swift in Sources */,
 				B2803FD724650C2F00CB1119 /* AggregateViewController.swift in Sources */,
 				B268DDB124C04B82003D49E1 /* LazyViewController.swift in Sources */,
+				B26E77FA25063571009AB257 /* StringViewController.swift in Sources */,
 				B2692A6F246D220700AE812D /* ProtocolOperation.swift in Sources */,
 				B28BDE2F24B5B3D300344702 /* BaseViewController.swift in Sources */,
+				B2E3B9D224EA61A000C66A76 /* StructAndClassViewController.swift in Sources */,
+				B2A3D11924E14BCA00BA2DAC /* FunctionViewController.swift in Sources */,
 				B2692A71246D233B00AE812D /* ProtocolViewController.swift in Sources */,
 				B262BBE724641CFA002A2754 /* SceneDelegate.swift in Sources */,
 			);
@@ -369,6 +468,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CXF7ZXD635;
+				GCC_PREFIX_HEADER = "Swift-Learning/bridge.pch";
 				INFOPLIST_FILE = "Swift-Learning/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -386,6 +487,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CXF7ZXD635;
+				GCC_PREFIX_HEADER = "Swift-Learning/bridge.pch";
 				INFOPLIST_FILE = "Swift-Learning/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

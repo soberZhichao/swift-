@@ -55,7 +55,7 @@ extension AggregateViewController {
         for ele in arrayC {
             print("迭代数组=== \(ele)")
         }
-
+        
         print("删除数组第一个元素=== \(arrayC.dropFirst())")
         print("删除数组前两个元素=== \(arrayC.dropFirst(2))")
         print("删除数组后两个元素=== \(arrayC.dropLast(2))")
@@ -88,6 +88,38 @@ extension AggregateViewController {
         }
         print("map操作=== \(newArrayC)")
         
-    }
-}
+        let animals = ["ad", "bf", "ce"]
+        let sortedAnimals = animals.sorted { (lhs, rhs) -> Bool in
+//            let l = lhs.reversed()
+//            let r = rhs.reversed()
+            
+            return lhs.lexicographicallyPrecedes(rhs)
+        }
+        
+        print(sortedAnimals)
+        
+        let word = "Backwards"
+        for char in word.reversed() {
+            print(char, terminator: "")
+        }
 
+// Prints "sdrawkcaB"
+        var a = Set<Int>()
+        let arr = [1,1,1,4,4,4,4,1,1,1,1,1,4]
+        while a.count < 2 {
+            let indexS = Int(arc4random()%4)
+            a.insert(arr[indexS])
+        }
+        
+        print(Array(a))
+        
+        let randomSet = NSMutableSet()
+        while randomSet.count < 2 {
+            let r = arc4random() % UInt32(arr.count)
+            randomSet.add( arr[Int(r)])
+        }
+        print(randomSet)
+
+    }
+    
+}

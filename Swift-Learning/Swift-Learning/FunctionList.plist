@@ -38,5 +38,29 @@
 		<key>class</key>
 		<string>KVOViewController</string>
 	</dict>
+	<dict>
+		<key>func</key>
+		<string>可选值</string>
+		<key>class</key>
+		<string>OptionalViewController</string>
+	</dict>
+	<dict>
+		<key>func</key>
+		<string>函数</string>
+		<key>class</key>
+		<string>FunctionViewController</string>
+	</dict>
+	<dict>
+		<key>func</key>
+		<string>结构体和类</string>
+		<key>class</key>
+		<string>StructAndClassViewController</string>
+	</dict>
+	<dict>
+		<key>func</key>
+		<string>字符串</string>
+		<key>class</key>
+		<string>StringViewController</string>
+	</dict>
 </array>
 </plist>

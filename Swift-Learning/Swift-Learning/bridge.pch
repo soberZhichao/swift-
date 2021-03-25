@@ -1,0 +1,16 @@
+//
+//  bridge.pch
+//  Swift-Learning
+//
+//  Created by 诺离 on 2020/9/1.
+//  Copyright © 2020 HangZhou. All rights reserved.
+//
+
+#ifndef bridge_pch
+#define bridge_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "codeObfuscation.h"
+
+#endif /* bridge_pch */

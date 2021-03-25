@@ -9,7 +9,11 @@
 import UIKit
 
 class ProtocolViewController: UIViewController, MyProtocol {
-
+    
+    struct Eq<A> {
+        let eq: (A, A) -> Bool
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
@@ -17,7 +21,10 @@ class ProtocolViewController: UIViewController, MyProtocol {
         let label = resultLabel()
         label.text = protocolName
         view.addSubview(label)
+        
+        let eqInt: Eq<Int> = Eq { $0 == $1 }
+
     }
-    
+
 
 }

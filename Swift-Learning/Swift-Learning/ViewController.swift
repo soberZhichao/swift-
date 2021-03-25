@@ -26,6 +26,8 @@ class ViewController: UIViewController {
         navigationController?.navigationBar.shadowImage = UIImage()
         title = "Swift-Learning"
         
+        let aa = getPropertyList as! Any
+        
     }
 
     private func getPropertyList() -> Any? {
@@ -70,6 +72,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         }
         let vc = classT.init()
         navigationController?.pushViewController(vc, animated: true)
+        
     }
 }
+
 
